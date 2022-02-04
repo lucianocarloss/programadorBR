@@ -1,0 +1,3 @@
+DOM - DOCMENT OBJECT MODEL - Modelo de objetos do documento;
+document = serve pra pegar tudo da pagina html (head, body)
+document.getElementsById("nome") = pega o item por id e assim vc pode atribuir a uma variável let.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 2</title>
+
+    <script>
+        function onOver(elemento){
+            elemento.style.backgroundColor = "blue";
+        }
+    </script>
+    <script>
+        function onOut(elemento){
+            elemento.style.backgroundColor = "red";
+        }
+    </script>
+
+    <style>
+        img {
+            width: 200px;
+            margin-bottom: 25px;
+        }
+        div{
+            display: inline-block;
+            padding: 10px;
+            font-size: 2rem;
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+</head>
+<body onload="console.log('Página Carregada!')">
+    
+    <img src="https://static.doocacommerce.com.br/chipbyte/product/controle-jotstick-play-game-pg3-1611144439713_1000x1000+fill_ffffff.png" alt="">
+    <br>
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+
+</body>
+</html>

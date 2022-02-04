@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparando maneiras de criar eventos</title>
+</head>
+
+    <style>
+
+    </style>
+
+    <script>
+
+        function f(e){
+            console.log("Teste F");
+            console.log(e); //não retorna nada pois não a o que retornar.
+        }
+        function f1(e){
+            console.log("Teste F1");
+            console.log(e); //retorna o evento que disparou o retorno.
+            console.log(e.target);  //retorna o elemento que está sendo clicado.
+        }
+        window.onload = function(){
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.addEventListener("click", f1);
+        }
+
+    </script>
+
+<body>
+    
+    <h1 onclick="f(this)">Title</h1>  
+    <!-- adicionando o this agora ele envia o meu elemento que no caso é isso -->
+
+</body>
+</html>
