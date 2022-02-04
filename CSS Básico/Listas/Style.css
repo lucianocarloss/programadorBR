@@ -1,0 +1,36 @@
+ul{
+	/*list-style: square;*/
+	list-style-image: url("image/ico.png");
+	list-style-position: inside;
+	margin: 0;
+	padding: 10;
+	background-color: red;
+	color: red;
+
+}
+
+ol{
+	list-style: lower-alpha;
+	list-style-position: inside;
+	margin: 0;
+	padding: 10;
+	background-color: blue;
+	color: red;
+}
+
+
+li{
+	border: 1px solid;
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.link{
+	text-decoration: none;
+}
+
+li:hover{
+	background-color: yellow;
+}

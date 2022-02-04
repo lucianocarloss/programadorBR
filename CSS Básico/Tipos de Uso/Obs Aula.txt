@@ -1,0 +1,10 @@
+1-vw	= referente a 1% da largura da janela
+1-vh	= referente a 1% da altura da janela
+1-vmin	= referente a medida que for a menor no momento entre largura e altura; 
+1-vmax	= referente a meior medida entre largura e altura;
+1-%	= referente ao item pai medido somente em porcentagem;
+
+////
+
+margin-top,right,botton,left	= afasta o conteudo para fora;
+padding-top,right,botton,left	= afasta o conteudo para dentro;

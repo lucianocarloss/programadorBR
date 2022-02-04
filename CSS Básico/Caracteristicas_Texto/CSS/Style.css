@@ -1,0 +1,26 @@
+/*p{
+	color: red;
+	text-align: justify;
+	text-transform: capitalize;
+	text-indent: 35px;
+	text-decoration: underline;
+	letter-spacing: 1px;
+	line-height: 2;
+	word-spacing: 5px;
+	text-shadow: 2px 2px 2px black;
+
+}
+
+a{
+	text-decoration: none;
+}*/
+
+p{
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	/*font-weight: 500;*/
+	/*font-variant: small-caps; Alterna as fontes mantendo a difereça entre maiusculas e minusculas*/
+
+}
