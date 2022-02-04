@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+
+    <style type="text/css">
+        .quadrado{
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            background-color: red;
+        }
+        /* Para moduficar o posicionamento do item com absolute
+        tenha certeza que o elemento pai não está como padrão,
+        se tiver defina uma posição a ele como relative por
+        exemplo. */
+        .quadrado-blue{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: blue;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            position: relative;
+            width: 500px;
+            height: 400px;
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <div class="quadrado quadrado-blue"></div>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+
+</body>
+</html>

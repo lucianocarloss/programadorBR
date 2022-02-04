@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position - Fixed</title>
+
+    <style type="text/css">
+    
+        .quadrado{
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            background-color: red;
+        }
+        .quadrado-blue{
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+            background-color: blue;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            width: 500px;
+            height: 4000px;
+            border: 1px solid grey;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="quadro">
+        <div class="quadrado quadrado-red"></div>
+        <a href="#"><div class="quadrado quadrado-blue"></div></a>
+        <div class="quadrado quadrado-green"></div>
+    </div>
+
+</body>
+    <!-- tipo de posicionamento fixed mantem a posição
+    em referência a tela de exibição ideal pra fazer aqueles 
+    balões de contato por exemplo-->
+</html>
